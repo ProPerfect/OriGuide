@@ -1,0 +1,60 @@
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    display: none;
+}
+.magic-scroll::-webkit-scrollbar{width: 6px;}
+.magic-scroll::-webkit-scrollbar-button{height: 10px;background: #e7e9e8;}
+.magic-scroll::-webkit-scrollbar-thumb{background: #fff;width: 6px;height: 44px;}
+.magic-scroll::-webkit-scrollbar-track-piece{background: #e7e9e8;}
+.m-og{position: absolute;width: 100%;height: 100%;overflow: hidden;top: 0;left: 0;background: #e7e9e8;}
+.og-menu{position: absolute;width: 220px;height: 100%;top: 0;left: 0;background: #30373f;}
+.og-menu-hd{height: 60px;background: #252a2e;padding: 0 20px;border-bottom: 1px solid #000;}
+.og-menu-hd .logo{width: 40px;height: 40px;padding: 10px 0;}
+.og-menu-hd .name{ padding: 10px 0; height: 40px; }
+.og-menu-hd .logo img{display: block;width: 100%;height: 100%;}
+.og-menu-hd .name img{display: block;height: 24px;margin-left: 4px;padding:8px;}
+.og-menu-box .og-menu-item{color: #e9e7e8; line-height: 42px; height: 44px;padding: 0 20px; font-size: 14px; font-family: "Microsoft Yahei";cursor: pointer;}
+.og-menu-box .og-menu-item:hover{ background: rgba(255,84,2,0.50);}
+.og-menu-box .og-menu-item.on{background: #ff5402;}
+.og-menu-box .og-menu-item .icon{width: 32px; height: 32px; margin: 6px 12px 6px 6px;}
+.og-menu-box .og-menu-item .st{color: #eaeaea; font-size: 12px; padding-left: 4px;}
+.og-menu-box .og-menu-item .icon.shfw{background: url(http://oridemo.applinzi.com/origuide/menu/shfw.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.gzxx{background: url(http://oridemo.applinzi.com/origuide/menu/gzxx.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.xqah{background: url(http://oridemo.applinzi.com/origuide/menu/xqah.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.zysc{background: url(http://oridemo.applinzi.com/origuide/menu/zysc.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.gjjc{background: url(http://oridemo.applinzi.com/origuide/menu/gjjc.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.xxyl{background: url(http://oridemo.applinzi.com/origuide/menu/xxyl.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.lszc{background: url(http://oridemo.applinzi.com/origuide/menu/xqah.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.lsbf{background: url(http://oridemo.applinzi.com/origuide/menu/lsbf.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.gy{background: url(http://oridemo.applinzi.com/origuide/menu/gy.png) no-repeat center;background-size: 100%;}
+.og-menu-box .og-menu-item .icon.cytj{background: url(http://oridemo.applinzi.com/origuide/menu/cytj.png) no-repeat center;background-size: 100%;}
+.og-bd{position: absolute;height: 100%;overflow: hidden;top: 0;left: 221px;right: 0;}
+.og-bd-hd{height: 60px;background: #fff;box-shadow: 0 1px 4px 1px rgba(37,42,46,0.04);padding: 0 20px;}
+.og-bd-ct{position: absolute;left: 10px;top: 70px;bottom: 10px;right: 10px;overflow-y: scroll;overflow-x: hidden; }
+.og-bd-ct .ct-title{margin: 10px 4px 10px 10px;height: 44px;background: #fff;box-shadow: 0 1px 4px 1px rgba(37,42,46,0.04);border-left: 6px solid #ff4500;padding: 0 20px; line-height: 44px; font-size: 14px; color: #999;}
+hr {border: 0; height: 1px; background: #394048; margin: 10px 20px;}
+.web{background: url('http://oridemo.applinzi.com/backgrounds/m1.jpg') no-repeat center;background-size: cover;;display: block;margin: 10px;position: relative;}
+.web img{display: block;width: 100%;height: auto;}
+.web-title,
+.web-desc { height: 40px; background: #fff; line-height: 40px; padding: 0 16px; color: #999; font-size: 14px;position: relative;}
+.web-desc {position: absolute;bottom: 0;width: calc(100% - 32px);font-size: 12px;color: #aaa;}
+.web:hover .web-desc{bottom: 30px;}
+.web:hover .web-title{color: #333;}
+.web-t { margin: 10px; height: 30px; line-height: 30px; background: #fff; padding: 0 20px; border-left: 6px solid #FF9B6B;color: #999; }
+.web-t:hover { margin: 10px; height: 30px; line-height: 30px; background: #fff; padding: 0 20px; border-left: 6px solid #FF5402;color: #FF5402;}
+.og-search{height: 100%;}
+.og-search input[type="search"] { height: 30px; margin: 15px 0; border: 1px solid #ccc; padding: 0 50px 0 10px; border-radius:3px 0 0 3px; color: #999; width: 300px; line-height: 31px;}
+.search-btn { width: 60px; height: 30px; margin: 15px 0;border-radius:0 3px 3px 0;cursor: pointer;background:#ccc url(http://oridemo.applinzi.com/origuide/search_white.png) no-repeat center;background-size: auto 60%;}
+.og-title-list{height: 30px; line-height: 30px; margin: 15px 0;}
+.og-title-list a{padding: 0 10px; border: 1px solid #FF4500; line-height: 24px; display: block; border-radius: 3px; margin: 3px 10px 3px 0; background: #fff; color: #FF4500; opacity: 0.8;}
+.og-title-list a:hover{opacity: 1;box-shadow: 0 0 8px 0 rgba(0,0,0,.4)}
+.og-about{position: absolute; top: 0; background: #fff; left: 220px; bottom: 0; right: 0;padding:0 20px;overflow-y: scroll;border-top: 20px solid #fff; border-bottom: 20px solid #fff;}
+.og-about h3{line-height: 40px; font-weight: normal; background: #eaeaea; padding: 0 10px; font-size: 14px; border-left: 6px solid #FF5402; color: #666; }
+.og-about p{margin: 20px 0; font-size: 12px; color: #999; text-indent: 2em;line-height: 24px;}
+.og-about table{ margin: 20px 0; color: #999; width: 100%;}
+.og-about table td{line-height: 30px; padding-left: 20px;border: 1px solid #eaeaea;width: 25%;}
+.og-about ul{margin: 20px 0; color: #999; line-height: 30px;text-indent: 2em; }
+.og-about ul .title{color: #666; font-size: 14px;}
+.og-about li{list-style-type: circle; margin-left: 45px; line-height: 19px;text-indent: 0;}

@@ -1,0 +1,36 @@
+/*样式重置*/
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr{margin:0;padding:0}  /*清空间距*/
+address,caption,cite,code,dfn,em,i,th,var,b{font-style:normal;font-weight:normal}  /*去除字体加粗*/
+/*使用-webkit-tap-highlight-color:rgba(0,0,0,0) 去掉Touch页面被触摸时产生的半透明灰色遮罩*/
+select,textarea,a,div,span{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+/*使用-webkit-touch-callout: none，禁止ios 长按时不触发系统的菜单，禁止ios&android长按时下载图片*/
+/*使用-webkit-user-select:none，禁止ios和android用户选中文字*/
+html,body{-webkit-touch-callout:none;-webkit-user-drag:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-font-smoothing:antialiased}
+input::-webkit-input-speech-button{display:none}
+/*使用outline-style:none，禁止激活表单元素时出现边线*/
+a:focus,input,textarea{outline-style:none}
+input[type="text"],input[type="password"],input[type="submit"],textarea{outline-style:none;-webkit-appearance:none}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);outline:0}
+textarea{resize:none;overflow-y:auto;overflow-x:hidden}
+center { margin: 0 auto; text-align: center }
+table{border-collapse:collapse;border-spacing:0}
+h1{font-size:0}
+li{list-style:none}
+fieldset,img{border:0}
+img{vertical-align:top}
+*:focus {outline: none;}
+q:before,q:after{content:''}
+
+/*公共样式*/
+body {font: 12px 'Microfoft Yahei',Open Sans,Hiragino Sans GB,STXihei, Verdana, Arial, Helvetica, sans-serif; line-height: 1; }
+body{background: #f8f3f0;}
+.fl{float: left;}
+.fr{float: right;}
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clear{display:inline-block}
+.clear{display:block}
+.hide { display: none; opacity: 0; }
+.trans,a { transition: all 0.3s; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; -o-transition: all 0.3s;text-decoration: none; }
+.etc { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+.blur { -webkit-filter: blur(3px); -moz-filter: blur(3px); -ms-filter: blur(3px); filter: blur(3px); }
+.over { position: absolute; top: 0; bottom: 0; width: 100%; overflow: hidden; }
